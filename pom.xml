@@ -21,13 +21,12 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
-<!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+<!-- https://mvnrepository.com/artifact/com.exadel.flamingo/flamingo-services-common -->
 <dependency>
-    <groupId>org.springframework</groupId>
-    <artifactId>spring-aop</artifactId>
-    <version>2.5.6.SEC03</version>
+    <groupId>com.exadel.flamingo</groupId>
+    <artifactId>flamingo-services-common</artifactId>
+    <version>2.2.0</version>
 </dependency>
-
   <dependencies>
     <dependency>
       <groupId>com.google.code.findbugs</groupId>
