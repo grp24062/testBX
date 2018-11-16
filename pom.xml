@@ -23,14 +23,14 @@
   </properties>
 
   <dependencies>
-<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-server -->
-<!-- https://mvnrepository.com/artifact/org.apache.geode/geode-junit -->
+
+<!-- https://mvnrepository.com/artifact/org.jasig.portal/uportal3-impl -->
 <dependency>
-    <groupId>org.apache.geode</groupId>
-    <artifactId>geode-junit</artifactId>
-    <version>1.0.0-incubating</version>
-    <scope>test</scope>
+    <groupId>org.jasig.portal</groupId>
+    <artifactId>uportal3-impl</artifactId>
+    <version>3.0.0-M4</version>
 </dependency>
+
 
 
 
