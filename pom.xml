@@ -21,18 +21,15 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
-<!-- https://mvnrepository.com/artifact/com.exadel.flamingo/flamingo-services-common -->
-<dependency>
-    <groupId>com.exadel.flamingo</groupId>
-    <artifactId>flamingo-services-common</artifactId>
-    <version>2.2.0</version>
-</dependency>
+
   <dependencies>
-    <dependency>
-      <groupId>com.google.code.findbugs</groupId>
-      <artifactId>jsr305</artifactId>
-      <version>3.0.1</version>
-    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.struts/struts2-core -->
+<dependency>
+    <groupId>org.apache.struts</groupId>
+    <artifactId>struts2-core</artifactId>
+    <version>2.3.7</version>
+</dependency>
+
     <dependency>
       <groupId>args4j</groupId>
       <artifactId>args4j</artifactId>
